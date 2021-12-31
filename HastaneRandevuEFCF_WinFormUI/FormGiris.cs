@@ -21,21 +21,21 @@ namespace HastaneRandevuEFCF_WinFormUI
         {
            // this.Hide();
             FormDoktorlar frmDr = new FormDoktorlar();
-            frmDr.Show();
+            frmDr.ShowDialog();
         }
 
         private void btnRandevuIslemleri_Click(object sender, EventArgs e)
         {
            // this.Hide();
             FormRandevuAlma frmRandevu = new FormRandevuAlma();
-            frmRandevu.Show();
+            frmRandevu.ShowDialog();
         }
 
         private void buttonHasraCagir_Click(object sender, EventArgs e)
         {
             // this.Hide();
             FormHastaCagir frmHastaCagir = new FormHastaCagir();
-            frmHastaCagir.Show();
+            frmHastaCagir.ShowDialog();
         }
 
         private void btnHastaIslemleri_Click(object sender, EventArgs e)
